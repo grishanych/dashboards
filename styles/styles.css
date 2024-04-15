@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.main{
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+.sidebar {
+    width: 306px;
+    height: 100vh;
+    /* background-color: #fff; */
+    background-color: #ffffff;
+    color: #fff;
+    float: left;
+}
+
+.sidebar-content{
+margin: 36px 0 0 28px;
+}
+
+.sidebar-title{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.sidebar-title-name{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #000;
+}
+
+.sidebar-title-name-span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #838383;
+}
+
+.sidebar-list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* list-style-type: none; */
+    /* margin-top: 20px; */
+    
+    /* background-color: aquamarine; */
+    width: 250px;
+}
+
+.sidebar-item{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #9197B3;
+    border-bottom: 1px solid #555;
+    height: 24px;
+    width: 231px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 11px 9.5px;
+   
+}
+
+.sidebar-item:hover{
+    background-color: #5932EA;
+    color: #fff;
+}
+
+/* .svg-change-color:hover path {
+   
+    stroke: white; 
+} */
+/* .svg-change-color{
+    fill: none;
+    stroke: none;
+
+} */
+ .sidebar-item:hover path, rect,  circle, line{
+    stroke: white;  
+    /* fill: white; */
+} 
+
+ 
+
+/* styles/styles.css */
+/* svg:hover path,
+svg:hover rect,
+svg:hover circle,
+svg:hover line 
+{
+    fill: white;
+    stroke: white;
+} */
+
+  
+
+
+.sidebar-item-content{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.content {
+    margin:128px 0 0 71px; 
+    padding: 20px;
+    width: 968px;
+    background-color: #fff;
+}
+
+
+.content-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
